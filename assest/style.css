@@ -30,6 +30,19 @@
 section{
     padding: 2rem 9%;
 }
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border:var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 1.7rem;
+    
+}
 
 .header{
     padding: 2rem 9%;
@@ -93,7 +106,20 @@ section{
 .home .content{
     flex:1 1 45rem;
 }
+.home .content h3{
+    font-size: 4.5rem;
+    color:var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow) ;
+}
 
+.home .content p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+
+}
 
 
 
