@@ -181,10 +181,17 @@ section:nth-child(even){
     color: var(--black);
     padding: .5rem 0;
     text-shadow: var(--text-shadow);
-    
-    
 
 }
+
+.icons-container .icons p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+    text-shadow: var(--text-shadow);
+
+}
+
 
 
 
