@@ -30,6 +30,12 @@
 section{
     padding: 2rem 9%;
 }
+section:nth-child(even){
+    background: red;
+
+
+
+}
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -41,8 +47,30 @@ section{
     color: var(--green);
     cursor: pointer;
     font-size: 1.7rem;
-    
+
 }
+
+.btn span{
+    padding: 7rem 1rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color: #fff;
+    margin-left: .5rem;
+
+}
+
+.btn hover{
+    background: var(--green);
+    background: #fff;
+    margin-left: 1rem ;
+
+}
+
+.btn hover span{
+    color: var(--green);
+
+}
+
 
 .header{
     padding: 2rem 9%;
@@ -121,8 +149,42 @@ section{
 
 }
 
+.icons-container{
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      padding-top: 5rem;
+      padding-bottom: 5rem;
 
 
+}
+
+.icons-container .icons{
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius:.5rem;
+    text-align: center;
+    padding: 2.5rem;
+    
+}
+
+.icons-container .icons i{
+    font-size: 4.5rem;
+    color: var(--green);
+    padding-bottom: .7rem;
+
+
+}
+
+.icons-container .icons h3{
+    font-size: 4.5rem;
+    color: var(--black);
+    padding: .5rem 0;
+    text-shadow: var(--text-shadow);
+    
+    
+
+}
 
 
 
@@ -143,6 +205,10 @@ section{
     .header{
         padding: 2rem;
     }
+}
+section{
+   padding: 2rem;
+
 }
 
 /*@media(max-width:768px){
