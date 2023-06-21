@@ -33,8 +33,20 @@ section{
 section:nth-child(even){
     background: #f5f5;
 
-
-
+}
+.heading{
+   text-align: center;
+   padding-bottom: 2rem;
+   text-shadow: var(--text-shadow);
+   text-transform: uppercase;
+   color: var(--black);
+   font-size: 5rem;
+   letter-spacing: .4rem;
+}
+.heading span{
+    text-transform: uppercase;
+   color: var(--green);
+   
 }
 .btn{
     display: inline-block;
@@ -201,7 +213,7 @@ section:nth-child(even){
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
-    padding: 2rem;
+    padding: 2.5rem;
 
 }
 
