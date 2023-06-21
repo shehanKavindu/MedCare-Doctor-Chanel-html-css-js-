@@ -191,6 +191,19 @@ section:nth-child(even){
     text-shadow: var(--text-shadow);
 
 }
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+    gap: 2rem;
+}
+.services .box-container .box{
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2rem;
+
+}
 
 
 
