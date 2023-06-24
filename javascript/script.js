@@ -12,4 +12,3 @@ window.onscroll = () => {
     navbar.classList.toggle('active');
     
 }
-}
