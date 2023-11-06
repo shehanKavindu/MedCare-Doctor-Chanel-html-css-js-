@@ -28,7 +28,7 @@
 }
 
 section{
-    padding: 2rem 8%;
+    padding: 2rem 8
 }
 section:nth-child(even){
     background: #f5f5;
@@ -36,7 +36,8 @@ section:nth-child(even){
 }
 .heading{
    text-align: center;
-   padding-bottom: 3rem;
+   padding-bottom: 3
+   rem;
    text-shadow: var(--text-shadow);
    text-transform: uppercase;
    color: var(--black);
