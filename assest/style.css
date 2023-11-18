@@ -193,7 +193,7 @@ section:nth-child(even){
     font-size: 4.5rem;
     color: var(--black);
     padding: .5rem 0;
-    text-shadow: var(--text-shadow);
+    text-shadow: var(--text-w);
 
 }
 
