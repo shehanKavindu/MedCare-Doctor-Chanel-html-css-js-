@@ -476,7 +476,7 @@ button[class ^= navbar]:hover{
     position: relative;
     height: 440px;
     background-color: var(--light-gray);
-    overflow: hidden;
+    overflow: hiddengit
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
