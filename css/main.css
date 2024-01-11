@@ -86,7 +86,7 @@ a{
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-align: center;
+    -webkit-box-align: cent
         -ms-flex-align: center;
             align-items: center;
 }
