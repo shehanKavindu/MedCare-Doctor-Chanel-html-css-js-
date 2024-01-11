@@ -470,7 +470,7 @@ button[class ^= navbar]:hover{
     margin-bottom: 6rem;
 }
 .doc-panel-item:last-child{
-    margin-bottom: auto;
+    margin-bottom: 0;
 }
 .doc-panel-item .img{
     position: relative;
