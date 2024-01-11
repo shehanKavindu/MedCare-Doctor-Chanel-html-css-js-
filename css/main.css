@@ -501,7 +501,7 @@ button[class ^= navbar]:hover{
     margin-right: auto;
 }
 .doc-panel-item:hover .info{
-    bottom: 0;
+    bottom: 0;;
 }
 
 /* package service */
